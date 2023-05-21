@@ -1,0 +1,27 @@
+:root{
+    --primary: #333333;
+    --secondary: #232323;
+    --color-header: #444342;
+    --color-main: #989898;
+    --maucam: #FD9A00;
+}
+
+html, body{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Pacifico', cursive;
+color: var(--color-main);
+
+}
+
+.button{
+    background-color: var(--maucam);
+}
+
+.col-sm-4{
+    background-color: var(--primary);
+}
+
+.col-sm-8{
+    background-color: var(--secondary);
+}

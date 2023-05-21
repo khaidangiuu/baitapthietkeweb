@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #919191;
+}
+
+.readmore {
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    float: right;
+}
+
+header {
+    background-color: #333333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.hearder-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: flex;
+}
+
+form input {
+    padding-right: 20px;
+    margin-right: 20px;
+    background-color: #232323;
+    border: 1px solid #919191 ;
+    border-radius: 5px;
+}
+form button {
+    background-color: orange;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+nav {
+    background-color: #232323;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #919191;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #333333;
+    margin-bottom: 30px;
+}
+
+h3 {
+    background-color: rgb(212, 212, 212);
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.main-content table {
+    width: 32px;
+    height: 32px;
+    font-size: 10px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.main-content h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.main-content p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.main-content p a{
+    text-decoration: none;
+    color: orange;
+}
+
+img {
+    width: 100%;
+    height: 315px;
+}
+
+.caption-img {
+    text-align: center;
+    background-color: rgb(231, 229, 226);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    font-weight: normal;
+}
+
+footer a {
+    color: #919191;
+    text-decoration: none;
+}

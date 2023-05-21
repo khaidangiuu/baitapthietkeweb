@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #919191;
+    /* background-color: #232323; */
+}
+
+a{
+    text-decoration: none;
+    color: #FF9900;
+}
+
+/* hearder */
+header {
+    margin-bottom: 30px;
+    background-color: #333333;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #FF9900;
+}
+
+nav{
+    margin: 0 15px;
+    padding: 20px;
+    background-color: #232323;
+}
+
+nav a{
+    display: inline;
+    color: #919191;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #FF9900;
+}
+
+main{
+    margin: 0 20px;
+}
+
+.number1 article{
+    background-color: #333333;
+}
+
+.number1 article h1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.number1 article a{
+    float: right;
+}
+
+aside.col-lg-8 {
+    padding: 0;
+}
+
+.number1 aside table{
+        width: 100%;
+        height: 360px;
+        font-size: 50px;
+        font-weight: bold;
+        background-color: #232323;
+        align-items: center;
+        text-align: center;
+}
+
+.number1{
+    margin-bottom: 20px;
+}
+
+.number2 article h3 {
+    font-style: italic;
+}
+
+.number2 aside table{
+    margin-left: 20px;
+}
+
+.number2 aside table th{
+    width: 130px;
+    height: 130px;
+    font-size: 15px;
+    background-color: #232323;
+    text-align: center;
+    border: 20px solid #ffffff;
+}
+
+hr{
+    margin: 50px 0;
+}
+
+.number3 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.number3 article h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.number3 hr{
+    margin: 5px 0;
+}
+
+.bangcuoi{
+    width: 130px;
+    height: 130px;
+    background-color: #232323;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.number3 .col-lg-6 a{
+    float: right;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232323;
+}
